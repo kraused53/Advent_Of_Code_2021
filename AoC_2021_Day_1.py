@@ -17,7 +17,7 @@ from os.path import exists
             the old depth
         If file does not exist -> None
 '''
-def Day1A(fp):
+def DayA(fp):
     # Does the file exist?
     if exists(fp):
         # If yes:
@@ -74,7 +74,7 @@ def Day1A(fp):
             the old depth
         If file does not exist -> None
 '''
-def Day1B(fp):
+def DayB(fp):
     # Does the file exist?
     if exists(fp):
         # If yes:
@@ -122,7 +122,7 @@ if __name__ == '__main__':
     
     # Does the file exist?
     if exists(fp):
-        print(Day1A(fp))
-        print(Day1B(fp))
+        print(DayA(fp))
+        print(DayB(fp))
     else:
         print('File does not exist!')
